@@ -10,6 +10,8 @@ import { GlobalProvider } from './context/GlobalState.js';
 import './App.css';
 
 function App() {
+
+  document.title = 'Expense Tracker Application';
   return (
     <GlobalProvider>
       <Header />
